@@ -93,7 +93,7 @@ Similar to the sample app, you must add a redirect scheme to receive sign in res
 
 ```gradle
 android.defaultConfig.manifestPlaceholders = [
-    "appAuthRedirectScheme": "com.okta.oidc.example"
+    "oidcAppAuthRedirectScheme": "com.okta.oidc.example"
 ]
 ```
 

@@ -34,7 +34,7 @@ your app. To do this, you must define a gradle manifest placeholder in your app'
 
 ```gradle
 android.defaultConfig.manifestPlaceholders = [
-    "appAuthRedirectScheme": "com.okta.oidc.example"
+    "oidcAppAuthRedirectScheme": "com.okta.oidc.example"
 ]
 ```
 

@@ -36,7 +36,7 @@ android {
         // Make sure this is consistent with the redirect URI used in
         // res/raw/okta_oidc_config
         manifestPlaceholders = [
-                "appAuthRedirectScheme": manifestScheme
+                "oidcAppAuthRedirectScheme": manifestScheme
         ]
     }
 
